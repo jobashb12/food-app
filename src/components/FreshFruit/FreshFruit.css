@@ -1,0 +1,67 @@
+.fresh-container {
+    width: 90%;
+    margin: 35px auto;
+    position: relative;
+}
+.fresh-head > h2 {
+    color: #2e2e2e;
+}
+.fresh-head > hr {
+    width: 8.3rem;
+    height: 4px;
+    background-color: #f9791e;
+    margin-top: 3px;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+.fresh-card {
+    display: flex;
+    margin-top: 3rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 10px;
+    scroll-behavior: smooth;
+}
+.fresh-card::-webkit-scrollbar {
+    display: none;
+}
+.card-btn {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.arrow {
+    width: 33px;
+    height: 33px;
+    background-color: #fcc287;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    cursor: pointer;
+}
+.arrow:hover {
+    background-color: #f9791e;
+}
+
+/* ------------------Responsive-----------------*/
+
+@media screen and (max-width: 780px) {
+    .card-btn {
+        display: none;
+    }
+}
